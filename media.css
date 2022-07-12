@@ -1,10 +1,10 @@
-@media only screen and (min-width:390px) {
+@media only screen and (max-width:480px) {
     /*Container1*/
         .container1 {
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 150vh;
+            height: 120vh;
             background: olivedrab;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         }
@@ -19,17 +19,15 @@
         }
 
         .block button {
-            width: 45vh;
-            height: 15vh;
-            margin-top: 13vh;
-            margin-left: -17vh;
+            width: 43vh;
+            height: 10vh;
+            margin-top: -1vh;
+            margin-left: -5vh;
+            font-size: 20px;
         }
 
         .watch img {
-            width: 29vh;
-            margin-top: 92vh;
-            margin-left: 52vh;
-            position:absolute;
+            display: none;
         }
 
     /*Container1*/
@@ -39,17 +37,20 @@
             display: flex;
             flex-direction: column;
             width: 100%;
-            height: 100vh;background: orange;
+            height: 120vh;
+            background: orange;
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;        
         }
 
         .title {
             font-size: 40px;
             margin-top: 5vh;
+            text-align: center;
         }
 
         .column1 {
             margin-top: 1vh;
+            text-align: center;
         }
 
         .column2 { 
